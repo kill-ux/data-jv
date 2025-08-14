@@ -1,7 +1,7 @@
 public class NextPrime {
     public static Integer nextPrime(Integer n) {
-        if (n <= 1) {
-            n = 1;
+        if (n < 2) {
+            return 2;
         }
         while (true) {
             n++;
