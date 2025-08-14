@@ -15,13 +15,6 @@ public class AlmostPalindrome {
     }
 
     public static boolean AlmostPalindrome(String s) {
-        System.out.println(s);
-        if (s.length() % 2 == 0) {
-            return s.substring(0, s.length() / 2)
-                    .equals(new StringBuilder(s.substring(s.length() / 2)).reverse().toString());
-        } else {
-            return s.substring(0, s.length() / 2)
-                    .equals(new StringBuilder(s.substring((s.length() + 1) / 2)).reverse().toString());
-        }
+        return s.equals(new StringBuffer(s).reverse().toString());
     }
 }
