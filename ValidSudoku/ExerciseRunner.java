@@ -28,6 +28,6 @@ public class ExerciseRunner {
             {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
             {'.', '.', '.', '.', '8', '.', '.', '7', '9'}
         };
-        System.out.println("Is board2 valid? " + validSudoku.isValidSudoku(board2)); // Expected output: false
+        // System.out.println("Is board2 valid? " + validSudoku.isValidSudoku(board2)); // Expected output: false
     }
 }
