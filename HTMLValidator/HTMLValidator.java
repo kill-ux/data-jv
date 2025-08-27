@@ -22,3 +22,4 @@ public class HTMLValidator {
         return list.size() == 0;
     }
 }
+
